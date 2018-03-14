@@ -3,6 +3,7 @@ _O ano em que eu era monitora, ou seja... Em que criei essa bela descrição._
 ### Trabalho de Alg III - 2015-1 ###
 
 **Data de entrega:** 29/05
+
 **Numero de integrantes(equipe):** MAX 3 alunos
 
 
@@ -21,12 +22,12 @@ Eles devem ser responsaveis por mostrar em qual linha do registro o jogo esta' a
 
 A maioria dos jogos que Carlos Eduardo tem sao da Steam e, atualmente, ele usa um linux maroto. No dia 05/05/2015, a lista de jogos da SteamOS+Linux esta' em 2100, mas como ele e' um menino que pensa no futuro, vai colocar um numero maior e codigos mais espacados. 
 
-> De 10001 ate' 16000 -> jogos que tem.
-> De 16001 ate' 22000 -> jogos que ja' jogou e quer comprar.
-> De 22001 ate' 28000 -> jogos que escutou falar e gostou.
-> De 28001 ate' 34000 -> jogos que nunca escutou falar.
-> De 34001 ate' 40000 -> jogos que ja' jogou e nao gostou.
-> De 40001 ate' 46000 -> jogos que as maes dos criadores deveria ter vergonha.
+> De 10001 ate' 16000 -> jogos que tem.  
+> De 16001 ate' 22000 -> jogos que ja' jogou e quer comprar.  
+> De 22001 ate' 28000 -> jogos que escutou falar e gostou.  
+> De 28001 ate' 34000 -> jogos que nunca escutou falar.  
+> De 34001 ate' 40000 -> jogos que ja' jogou e nao gostou.  
+> De 40001 ate' 46000 -> jogos que as maes dos criadores deveria ter vergonha.  
 
 Carlos Eduardo acha que e' um numero razoavel, pelos menos por enquanto. Algum dia, talvez, se arrependa.
 
@@ -55,28 +56,28 @@ ex.:
 
 Na execucao da busca sera' puxado os dados de registro.lol, deve ser impresso as duas arvores inteiras (conforme especificacao abaixo) e tera' as seguintes caracteristicas:
 
-> c 10001    -> c == codigo == AVL
-> n Portal   -> n == nome == 2-3-4
-> f -> f == fim da busca
+> c 10001    -> c == codigo == AVL  
+> n Portal   -> n == nome == 2-3-4  
+> f -> f == fim da busca  
 
 -----------------------------------------------------------------
 
 - Suponha que o conteudo do arquivo registros.lol e':
 
-> 10001 Portal Esse e' referente ao jogo Portal 2. Muuuito tops! Um dos melhores jogos da zuera! Descricao do site: "The 'Perpetual Testing Initiative' has been expanded to allow you to design co-op puzzles for you and your friends!"
-> 10002 Torchlight Esse e' referente ao jogo Torchlight II. Bom RPG. Varias opcoes. OBS.: meu bicho de estimacao e' um panda chamado ZueraAssassina.
-> 22001 Goat Jogo Goat Simulator. Parece muito louco! A cabra sobe em uma escada pelo pescoco. 
-> 28001 Savage Jogo Savage Lands. A qualidade parece boa. User reviews: Very positive. 
-> 16001 Portal Esse e' referente so ao jogo Portal. Nao tem algumas coisas do Portal 2, mas mesmo assim...
-> 0
+> 10001 Portal Esse e' referente ao jogo Portal 2. Muuuito tops! Um dos melhores jogos da zuera! Descricao do site: "The 'Perpetual Testing Initiative' has been expanded to allow you to design co-op puzzles for you and your friends!"  
+> 10002 Torchlight Esse e' referente ao jogo Torchlight II. Bom RPG. Varias opcoes. OBS.: meu bicho de estimacao e' um panda chamado ZueraAssassina.  
+> 22001 Goat Jogo Goat Simulator. Parece muito louco! A cabra sobe em uma escada pelo pescoco.   
+> 28001 Savage Jogo Savage Lands. A qualidade parece boa. User reviews: Very positive.   
+> 16001 Portal Esse e' referente so ao jogo Portal. Nao tem algumas coisas do Portal 2, mas mesmo assim...  
+> 0  
 
 
 - E que o conteudo do arquivo buscarJogos.txt e':
 
-> c 22001
-> n savage
-> n portal
-> f
+> c 22001  
+> n savage  
+> n portal  
+> f  
 
 - A execucao do programa com a chamada 
 
@@ -86,16 +87,16 @@ Na execucao da busca sera' puxado os dados de registro.lol, deve ser impresso as
 
 - Deve ser como mostrado abaixo.
 
-> Codigo:
-> (10002 (10001) (22001 (16001) (28001)))
+> Codigo:  
+> (10002 (10001) (22001 (16001) (28001)))  
 > 
-> Nome:
-> (Portal (Goat) (Portal;Savage;Torchlight))
+> Nome:  
+> (Portal (Goat) (Portal;Savage;Torchlight))  
 > 
-> 22001 Goat Jogo Goat Simulator. Parece muito louco! A cabra sobe em uma escada pelo pescoco. 
-> Savage 28001 Jogo Savage Lands. A qualidade parece boa. User reviews: Very positive.
-> Portal 10001 Esse e' referente ao jogo Portal 2. Muuuito tops! Um dos melhores jogos da zuera! Descricao do site: "The "Perpetual Testing Initiative" has been expanded to allow you to design co-op puzzles for you and your friends!"
-> Portal 16001 Esse e' referente so ao jogo Portal. Nao tem algumas coisas do Portal 2, mas mesmo assim...
+> 22001 Goat Jogo Goat Simulator. Parece muito louco! A cabra sobe em uma escada pelo pescoco.   
+> Savage 28001 Jogo Savage Lands. A qualidade parece boa. User reviews: Very positive.  
+> Portal 10001 Esse e' referente ao jogo Portal 2. Muuuito tops! Um dos melhores jogos da zuera! Descricao do site: "The "Perpetual Testing Initiative" has been expanded to allow you to design co-op puzzles for you and your friends!"  
+> Portal 16001 Esse e' referente so ao jogo Portal. Nao tem algumas coisas do Portal 2, mas mesmo assim...  
 
 
 ------------------------------------------------------------
@@ -132,19 +133,17 @@ carmem@inf.ufpr.br
 
 
 
-/*----------------------------------------------------------*/
-/* DICA NOVA!												
-/*															
-/*	* Repare bem na estrutura da 2-3-4. 					
-/*	Será que ela é positiva, será que ela é negativa...		
-/*	Será que ela é otimista, será que é pessimista...		
-/*															
-/*	Veja bem qual será mais fácil...						
-/*	Veja bem qual será possível...							
-/*															
-/*	Às vezes prevenir os erros ANTES facilita a vida.		
-/*															
-/*----------------------------------------------------------*/
+| DICA NOVA!							|  
+|:--------------------------------------------------------------|
+|* Repare bem na estrutura da 2-3-4.				|  								
+|  Será que ela é positiva, será que ela é negativa...		|
+|  Será que ela é otimista, será que é pessimista...		|	
+|								|							
+|	Veja bem qual será mais fácil...			|			
+|	Veja bem qual será possível...				|			
+|								|							
+|	Às vezes prevenir os erros ANTES facilita a vida.	|	
+|								|							
 
 
 
