@@ -1,0 +1,20 @@
+c 10001
+c 47002
+c 58642
+n Mount&Blade
+n AgeOfWonders
+c 11001
+n HeroSiege
+c 36001
+n TheWitcher
+c 28001
+c 18010
+n Herokingdom
+n huehuehue
+c 48001
+n BaldurGate
+n Convoy
+c 19350
+n Torchlight
+m
+f
